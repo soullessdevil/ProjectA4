@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with enve https://maurycyliebner.github.io -->
+
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(0 0)">
+  <g transform="translate(460.113 142.016)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <ellipse rx="150" fill="#6495ED" stroke-width="1" ry="150" stroke="#000000" fill-opacity="0.4">
+        <animate fill="freeze" keyTimes="0;0.222222;0.611111;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="cx" dur="16.3636s" calcMode="spline" values="0;0;-80;-80"/>
+        <animate fill="freeze" keyTimes="0;0.222222;0.611111;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="cy" dur="16.3636s" calcMode="spline" values="0;0;90;90"/>
+       </ellipse>
+       <animate fill="freeze" keyTimes="0;0;0.222222;0.611111;1" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;1;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(150.147 151.703)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <ellipse rx="150" fill="#DE3163" stroke-width="1" ry="150" stroke="#000000" fill-opacity="0.4">
+        <animate fill="freeze" keyTimes="0;0.222222;0.611111;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="cx" dur="16.3636s" calcMode="spline" values="0;0;80;80"/>
+        <animate fill="freeze" keyTimes="0;0.222222;0.611111;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="cy" dur="16.3636s" calcMode="spline" values="0;0;80;80"/>
+       </ellipse>
+       <animate fill="freeze" keyTimes="0;0;0.222222;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(305.13 444.448)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <ellipse rx="150" fill="#40E0D0" stroke-width="1" cx="0" ry="150" stroke="#000000" fill-opacity="0.4">
+        <animate fill="freeze" keyTimes="0;0.222222;0.611111;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="cy" dur="16.3636s" calcMode="spline" values="0;0;-120;-120"/>
+       </ellipse>
+       <animate fill="freeze" keyTimes="0;0;0.222222;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(171.728 165.168)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="20">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">компьютерные</tspan>
+         <tspan x="0" dy="1.2em">науки / IT</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0;0.111111;0.222222;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(443.345 162.904)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="20">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">математика</tspan>
+         <tspan x="0" dy="1.2em">и статистика</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0;0.111111;0.222222;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(304.141 409.623)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="20">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">предметная</tspan>
+         <tspan x="0" dy="1.2em">область знаний</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0;0.111111;0.222222;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(215.026 344.676)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="16">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">разработка</tspan>
+         <tspan x="0" dy="1.2em">ПО</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0.222222;0.611111;0.722222;0.777778;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(306.405 149.323)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="16">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">машинное</tspan>
+         <tspan x="0" dy="1.2em">обучение</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0.222222;0.611111;0.722222;0.777778;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(391.285 342.156)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="16">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">научные</tspan>
+         <tspan x="0" dy="1.2em">исследования</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0.222222;0.611111;0.722222;0.777778;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(0 0)">
+  <g transform="translate(305.273 250.048)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(0 0)">
+       <g fill="#ffffff" stroke-width="1" font-weight="600" font-family="Arial" text-anchor="middle" stroke="#ffffff" font-size="28">
+        <text word-spacing="0em" letter-spacing="0em">
+         <tspan x="0">DATA</tspan>
+         <tspan x="0" dy="1.2em">SCIENCE</tspan>
+        </text>
+       </g>
+       <animate fill="freeze" keyTimes="0;0;0.611111;0.777778;0.972222;1" keySplines="0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" dur="16.3636s" calcMode="spline" values="0;0;0;0;1;1"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs/>
+</svg>
