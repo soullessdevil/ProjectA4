@@ -43,28 +43,28 @@ section h1 {
   color: black;
 }
 
-#intro { background: url(../img/background/intro.jpg) center center / cover no-repeat;}
-#page1 { background: url(../img/background/b1.jpg) center center / cover no-repeat;}
-#page2 { background: url(../img/background/b2.jpg) center center / cover no-repeat;}
-#page3 { background: url(../img/background/b3.jpg) center center / cover no-repeat;}
-#page4 { background: url(../img/background/b4.jpg) center center / cover no-repeat;}
-#page5 { background: url(../img/background/b5.jpg) center center / cover no-repeat;}
-#page6 { background: url(../img/background/b6.jpg) center center / cover no-repeat;}
-#page7 { background: url(../img/background/b7.jpg) center center / cover no-repeat;}
-#page8 { background: url(../img/background/b8.jpg) center center / cover no-repeat;}
-#page9 { background: url(../img/background/b9.jpg) center center / cover no-repeat;}
-#page10 { background: url(../img/background/b10.jpg) center center / cover no-repeat;}
-#page11 { background: url(../img/background/b11.jpg) center center / cover no-repeat;}
-#page12 { background: url(../img/background/b12.jpg) center center / cover no-repeat;}
-#page13 { background: url(../img/background/b13.jpg) center center / cover no-repeat;}
-#page14 { background: url(../img/background/b14.jpg) center center / cover no-repeat;}
-#page15 { background: url(../img/background/b15.jpg) center center / cover no-repeat;}
-#page16 { background: url(../img/background/b16.jpg) center center / cover no-repeat;}
-#page17 { background: url(../img/background/b17.jpg) center center / cover no-repeat;}
-#page18 { background: url(../img/background/b18.jpg) center center / cover no-repeat;}
-#page19 { background: url(../img/background/b19.jpg) center center / cover no-repeat;}
-#page20 { background: url(../img/background/b20.jpg) center center / cover no-repeat;}
-#page21 { background: url(../img/background/b21.jpg) center center / cover no-repeat;}
+#intro { background: url(img/background/intro.jpg) center center / cover no-repeat;}
+#page1 { background: url(img/background/b1.jpg) center center / cover no-repeat;}
+#page2 { background: url(img/background/b2.jpg) center center / cover no-repeat;}
+#page3 { background: url(img/background/b3.jpg) center center / cover no-repeat;}
+#page4 { background: url(img/background/b4.jpg) center center / cover no-repeat;}
+#page5 { background: url(img/background/b5.jpg) center center / cover no-repeat;}
+#page6 { background: url(img/background/b6.jpg) center center / cover no-repeat;}
+#page7 { background: url(img/background/b7.jpg) center center / cover no-repeat;}
+#page8 { background: url(img/background/b8.jpg) center center / cover no-repeat;}
+#page9 { background: url(img/background/b9.jpg) center center / cover no-repeat;}
+#page10 { background: url(img/background/b10.jpg) center center / cover no-repeat;}
+#page11 { background: url(img/background/b11.jpg) center center / cover no-repeat;}
+#page12 { background: url(img/background/b12.jpg) center center / cover no-repeat;}
+#page13 { background: url(img/background/b13.jpg) center center / cover no-repeat;}
+#page14 { background: url(img/background/b14.jpg) center center / cover no-repeat;}
+#page15 { background: url(img/background/b15.jpg) center center / cover no-repeat;}
+#page16 { background: url(img/background/b16.jpg) center center / cover no-repeat;}
+#page17 { background: url(img/background/b17.jpg) center center / cover no-repeat;}
+#page18 { background: url(img/background/b18.jpg) center center / cover no-repeat;}
+#page19 { background: url(img/background/b19.jpg) center center / cover no-repeat;}
+#page20 { background: url(img/background/b20.jpg) center center / cover no-repeat;}
+#page21 { background: url(img/background/b21.jpg) center center / cover no-repeat;}
 
 .text {
     opacity: 0;
