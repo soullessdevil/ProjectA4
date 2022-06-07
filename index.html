@@ -1,739 +1,1046 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link href="project.css" rel="stylesheet">
-    <link href="res/jquery-ui.css" rel="stylesheet">
-    <title>Интеллектуальные системы</title>
+  <meta charset="UTF-8">
+  <link href="project.css" rel="stylesheet">
+  <link href="res/jquery-ui.css" rel="stylesheet">
+  <title>Интеллектуальные системы</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-<section id="intro" class="page">
-    <h1>Интеллектуальные системы</h1>
+  
+  <div class="preloader">
+    <div class="preloader__content">
+      <div class="loader loader1"></div>
+      <div class="loader loader2"></div>
+      <div class="loader loader3"></div>
+      <div class="loader loader4"></div>
+      <div class="loader loader5"></div>
+      <div class="loader loader6"></div>
+      <div class="loader loader7"></div>
+      <div class="loader loader8"></div>
+    </div>
+  </div>
+
+  <section id="intro" class="page section-main">
+    <div class="page0__content animation-cube__background">
+      <div class="page0__cube cube"></div>
+      <div class="page0__cube cube"></div>
+      <div class="page0__cube cube"></div>
+      <div class="page0__cube cube"></div>
+     <div class="page0__cube cube"></div>
+     <div class="page0__cube cube"></div>
+     <div class="page0__cube cube"></div>
+     <div class="page0__cube cube"></div>
+   </div>
+    <h1 class="main-heading shadows">Интеллектуальные системы</h1>
     <a href="#page1"><span></span><span></span><span></span></a>
-</section>
+  </section>
 
-<section id="page1" class="page">
+  <section id="page1" class="page page1">
     <div class="right-buttons hide" id="quiz_1">
-        <div  id="icon" class="menu-button">
-            <img src="animations/quiz.svg" alt="" onclick="quizStart_1()">
-        </div>
+      <div id="icon" class="menu-button">
+        <div class= "container">
+          <button onclick="quizStart_1()" class="one page1__btn">
+            <svg class="letter-i" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+              <path class="cls-1 stem" style="--item: 1; --color: rgb(246, 9, 149)" d="M534,688c-21.86-.21-46.54-1.64-60.89-18.14-11.57-13.31-12.73-32.47-13.32-50.1q-3.09-92.09-6.16-184.16c-2-59.35-3.65-120.66,18.22-175.87a1078.09,1078.09,0,0,1-201.94,61.42c19.19-1.82,41.22-2.67,54.66,11.13,11,11.33,12.29,28.69,12.83,44.49q4.38,127.62,2.16,255.36c-.21,11.76-.66,24.21-7.08,34.07-10.83,16.63-32.76,19-50.79,20.49-4.64.37-25.91-.25-23.84,5.56,2.43,6.8,20.9,4.78,25.36,4.62q80.61-2.88,161.22-5.7C474.19,690.11,504.23,687.72,534,688Z"/>
+              <path class="cls-1 stem" style="--item: 2; --color: rgb(254, 219, 59)" d="M467.79,653.59c-10.4-22.45-10.49-48.11-10.39-72.85.41-107.63.84-215.47,11.61-322.56a560.3,560.3,0,0,1-228.84,67c28.68-8.32,80.6-14.86,94.58,11.52s8.15,97.66,9.11,127.5c1.6,49.55-10.71,104.47-9.11,154,.49,15,.77,27.26-4.14,41.4-7,20.1-24.22,19.47-43.69,28.06s-41.06,11.15-62.32,11.9c37.92-1.33,76.07-7.73,114-10q57.9-3.47,115.93-3.65,16.57,0,33.15.17c9.49.12,22.1-1.59,31,1.12-.68,9.24-24.07-3.46-27.88-6.09A68.81,68.81,0,0,1,467.79,653.59Z"/>
+           <path class="cls-1 stem" style="--item: 3; --color: rgb(49, 191, 186)" d="M472.69,265.28Q415.92,287,357.31,303.39C340,308.24,321.6,315,303.63,315.64c-9,.3-17.16,3.07-25.8,5.48-7.75,2.17-19.37,8-27.33,7.65,15.86.74,32.93-3.61,48.62-5.68,10.35-1.37,22.15-2.32,30,4.6,6.16,5.45,7.93,14.22,9,22.37,4.45,33.43-1.43,64.83-.84,98.22.78,44.36,2.35,88.79,2.35,133.15.39,22.14.55,45.33-9.64,65-15.12,29.15-48.56,42.89-79.33,54.34A2122.89,2122.89,0,0,0,526,694.17c-19.73,1.13-38-12.56-47.79-29.71s-12.74-37.28-14.86-56.92C451,493.83,459.85,378.93,472.69,265.28Z"/>
+             
+              <path class="cls-1 dot" style="--item: 1; --color: rgb(88, 40, 215)" d="M378.7,89.91c-17.65,14.52-34.72,30.92-43.88,51.86S326,189.21,341,206.48c8.14,9.39,19.75,15.23,31.72,18.55,25.22,7,53.35,3.24,75.49-10.7s37.77-38,40.81-64c1.33-11.45.17-23.6-5.85-33.43-6.27-10.25-17-16.86-28-21.87-14.09-6.45-29.52-10.94-44.95-9.58s-30.85,9.36-38.26,23"/>
+              <path class="cls-1 dot" style="--item: 2; --color: rgb(246, 9, 149)" d="M360,95a85.56,85.56,0,0,0-34.89,62.73c-1,15.07,2.42,31,12.41,42.35,7.93,9,19.27,14.35,30.81,17.67,22.29,6.41,46.87,5.91,68.14-3.37s38.78-27.73,45-50.08.3-48.15-16.48-64.17c-15-14.32-36.51-19.77-57.22-20.88S354.37,85.36,343.42,106"/>
+              
+              <path class="cls-1 dot" style="--item: 3; --color: rgb(254, 219, 59)" d="M350.86,214.05c16.6,13.44,40.51,12.88,61.34,8.15,18.88-4.28,37.51-11.67,51.9-24.63,14.64-13.18,17.36-23.28,14-41.64A63.93,63.93,0,0,0,449.66,113c-19.08-12.13-43.28-14.4-65.45-9.91-17.84,3.61-35.33,11.77-47,25.78-9.84,11.86-16.54,31.25-10.52,46.34C331.89,188.16,339.89,205.18,350.86,214.05Z"/>
+           </svg>
+          </button>
+      </div>
+      </div>
     </div>
     <div class="table">
-        <div class="row">
-            <div class="text" id="page1_text">
-                <p>
-                    Объемы данных, которые в последнее время стал генерировать человек, 
-                    стали возрастать экспоненциально. Когда вы загружаете фото в социальные сети, 
-                    пишите комментарии по поводу товаров, звоните в службу поддержки или же используете трекеры передвижения на мобильных устройствах, 
-                    вы, сами того не осознавая, включаетесь в процесс накопления данных.
-                </p>
-            </div>
+      <div class="row">
+        <div class="text" id="page1_text">
+          <p class="page1__par">
+            Объемы данных, которые в последнее время стал генерировать человек,
+            стали возрастать экспоненциально. Когда вы загружаете фото в социальные сети,
+            пишите комментарии по поводу товаров, звоните в службу поддержки или же используете трекеры передвижения на
+            мобильных устройствах,
+            вы, сами того не осознавая, включаетесь в процесс накопления данных.
+          </p>
         </div>
-        <div class="row">
-            <div class="img" id="page1_img">
-                <img src="img/2.4.1.png" alt="Изображение">
-                <h6>Рис. 1. Рост накопления данных с 2010 по 2025 год</h6>
-            </div>
+      </div>
+      <div class="row">
+        <div class="img" id="page1_img">
+          <img src="img/2.4.1.png" alt="Изображение">
+          <h6>Рис. 1. Рост накопления данных с 2010 по 2025 год</h6>
         </div>
+      </div>
     </div>
-    <a href="#page2"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page2"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page2" class="page">
+  <section id="page2" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page2_text">
-                <p  >
-                    Одновременно за счет научно-технического развития происходит непрерывное увеличение производительности вычислительных мощностей. 
-                    Например, современный смартфон, при небольшом размере, превосходит по вычислительным ресурсам персональный компьютер, который раньше занимал полкомнаты. 
-                    Такие вычислительные мощности позволяют не просто копить данные на жестких дисках Data-центров, но и анализировать их, получая дополнительную полезную информацию. 
-                    Как раз изучением этих материалов и занимается область знаний, называемая "наука о данных" или "data science".
-                </p>
-            </div>
-            <div class="img" id="page2_img">
-            </div>
+      <div class="row">
+        <div class="text" id="page2_text">
+          <p>
+            Одновременно за счет научно-технического развития происходит непрерывное увеличение производительности вычислительных мощностей. Например, современный смартфон, при небольшом размере, превосходит по вычислительным ресурсам персональный компьютер, который раньше занимал полкомнаты. Такие вычислительные мощности позволяют не просто копить данные на жестких дисках Data-центров, но и анализировать их, получая дополнительную полезную информацию. Как раз изучением этих материалов и занимается область знаний, называемая "наука о данных" или "data science".
+          </p>
         </div>
+        <div class="img" id="page2_img">
+        </div>
+      </div>
     </div>
-    <a href="#page3"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page3"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page3" class="page">
+  <section id="page3" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page3_text">
-                <p>
-                    Такой подход, на сегодняшний день, возможно использовать в любой области человеческой деятельности, 
-                    начиная от прогнозирования физико-химических свойств новых материалов до выявления неявных закономерностей при социологических исследованиях. 
-                    Поэтому технологии «ИИ» или анализа данных принято называть сквозной технологией. 
-                    Это можно наблюдать на схематичной матрице «Национальная технологическая инициатива» (НТИ), 
-                    на которой схематизирован прогноз рынков, которые будут сформированы к 2035 году.
-                </p>
-            </div>
+      <div class="row">
+        <div class="text page3__block" id="page3_text">
+            <p class="page3__par" id="page3-text">Такой подход, на сегодняшний день, возможно использовать в любой области человеческой деятельности, начиная от прогнозирования физико-химических свойств новых материалов до выявления неявных закономерностей при социологических исследованиях. Поэтому технологии «ИИ» или анализа данных принято называть сквозной технологией. Это можно наблюдать на схематичной матрице «Национальная технологическая инициатива» (НТИ), на которой схематизирован прогноз рынков, которые будут сформированы к 2035 году.</p>
+            <button class="page3__btn" id="page3-reset" data-bound="true">Собрать</button>
         </div>
-        <div class="row">
-            <div class="img"  id="page3_img">
-                <img src="img/2.4.3.png" alt="Изображение">
-                <h6>Рис. 3. Матрица НТИ</h6>
-            </div>
+      </div>
+      <div class="row">
+        
+        <div class="img" id="page3_img">
+          <img src="img/2.4.3.png" alt="Изображение">
+          <h6>Рис. 3. Матрица НТИ</h6>
         </div>
+      </div>
     </div>
-    <a href="#page4"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page4"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page4" class="page">
+  <section id="page4" class="page">
     <div class="table">
-        <div class="row">
-            <div class="img" id="page4_img">
-            </div>
-            <div class="text" id="page4_text">
-                <p>
-                    Наука о данных тесно связана еще с одной областью – «искусственный интеллект» (ИИ) или «artificial intelligence». 
-                    Важную роль в этом глобальном процессе играет и тесная связь науки о данных с такой областью, как искусственный интеллект (ИИ) или "artificial intelligence". 
-                    Эта связь, прежде всего, обусловлена идеей о том, что по-настоящему интеллектуальные системы должны тем или иным образом "обучаться" 
-                    на достаточно больших объемах данных, извлекая из этих данных паттерны (т. е. особенности, которые впоследствии объединяются в иерархии). 
-                    Такой поиск полезных для дальнейшего анализа признаков характерен как для искусственного интеллекта, так и для анализа данных.
-                </p>
-            </div>
-            
+      <div class="row">
+        <div class="img" id="page4_img">
         </div>
-    </div>
-    <a href="#page5"><span></span><span></span><span></span></a>
-</section>
+        <div class="text" id="page4_text">
+          <p>
+            Наука о данных тесно связана еще с одной областью – «искусственный интеллект» (ИИ) или «artificial
+            intelligence».
+            Важную роль в этом глобальном процессе играет и тесная связь науки о данных с такой областью, как
+            искусственный интеллект (ИИ) или "artificial intelligence".
+            Эта связь, прежде всего, обусловлена идеей о том, что по-настоящему интеллектуальные системы должны тем или
+            иным образом "обучаться"
+            на достаточно больших объемах данных, извлекая из этих данных паттерны (т. е. особенности, которые
+            впоследствии объединяются в иерархии).
+            Такой поиск полезных для дальнейшего анализа признаков характерен как для искусственного интеллекта, так и
+            для анализа данных.
+          </p>
+        </div>
 
-<section id="page5" class="page">
+      </div>
+    </div>
+    <a class="page__link" href="#page5"><span></span><span></span><span></span></a>
+  </section>
+
+  <section id="page5" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page5_text">
-                <p  > 
-                    В настоящее время трудно выявить деятельность человека, где бы не применялись алгоритмы анализа данных и искусственного интеллекта. 
-                    Так, когда вы используете Google Translate или голосовой помощник Алиса, работает распознавание и генерация текста; 
-                    определение стоимости товара исходя из его популярности и поиск наиболее подходящих товаров для данного покупателя основаны 
-                    на рекомендательных алгоритмах; при поиске похожих изображений в Google и Яндекс используются алгоритмы распознавания образов.
-                </p>
-            </div>
+      <div class="row">
+        <div class="text" id="page5_text">
+          <p>
+            В настоящее время трудно выявить деятельность человека, где бы не применялись алгоритмы анализа данных и
+            искусственного интеллекта.
+            Так, когда вы используете Google Translate или голосовой помощник Алиса, работает распознавание и генерация
+            текста;
+            определение стоимости товара исходя из его популярности и поиск наиболее подходящих товаров для данного
+            покупателя основаны
+            на рекомендательных алгоритмах; при поиске похожих изображений в Google и Яндекс используются алгоритмы
+            распознавания образов.
+          </p>
         </div>
-        <div class="row">
-            <div class="img" id="page5_img">
-                <img src="img/2.4.5.png" alt="Изображение"  >
-                <h6  >Рис. 5. Технологии искусственного интеллекта в российских компаниях</h6>
-            </div>
+      </div>
+      <div class="row">
+        <div class="img" id="page5_img">
+          <img src="img/2.4.5.png" alt="Изображение">
+          <h6>Рис. 5. Технологии искусственного интеллекта в российских компаниях</h6>
         </div>
+      </div>
     </div>
-    <a href="#page6"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page6"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page6" class="page">
+  <section id="page6" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page6_text">
-                <p>
-                    Рассмотрим алгоритм работы ИИ на примере Алисы (голосовой помощник от Яндекса).
-                </p>
-                <p>
-                    Первым делом после того, как мы что-то говорим в данном голосовом помощнике, 
-                    начинается перевод информации из голоса в текст – это один из главных примеров машинного обучения.
-                </p>
-                <p>
-                    Затем работает алгоритм, который определяет, что же в этой фразе хотел сказать пользователь. 
-                    Текст перерабатывается и разделяется на самые важные составляющие, по которым с помощью модуля dialog manager, 
-                    начинается поиск ответа. Стоит отметить, что в dialog manager нет никакого машинного обучения, 
-                    в нем есть только специально написанные скрипты и большое количество правил. 
-                    Именно здесь и генерируются ответы для поставленного вопроса.
-                </p>
-                <p>
-                    Подобного рода голосовые помощники – достаточно сложные по своей организации сервисы, 
-                    так как в них присутствует большое количество данных, на основе которых идет машинное обучение, 
-                    постоянное дообучение и отработка частных случаев – исключений.
-                </p>
-                <p>
-                    Подробнее о том, как устроена Алиса, можно узнать по ссылке https://habr.com/ru/company/yandex/blog/349372/
-                </p>
-            </div>
-            <div id="alice">
-                <div id="aliceGame">
-                    <h3 style="color: #fff;">Восстановите схему</h3>
-                    <ul id="image-list1" class="sortable-list" style="color: black;">
-                        <li id="a2">ASR</li>
-                        <li id="a1">Пользователь говорит команду</li>
-                        <li id="a3">Алиса, какую ожидать погоду завтра?</li>
-                        <li id="a4">Intent classifier</li>
-                        <li id="a5">get_weather</li>
-                        <li id="a6">get_weather tagger</li>
-                        <li id="a7">intent: get_weather when:+1 day where:?</li>
-                        <li id="a8">dialog manager</li>
-                        <li id="a9">Прогноз погоды на завтра в Москве:...</li>
-                        <li id="a10">TTS</li>
-                        <li id="a11">Воспроизведение ответа</li>
-                    </ul>
-                    <ul id="answer-list" class="sortable-list" style="color: black;">
-                        <li class="right_answer">Пользователь говорит команду</li>
-                        <li class="right_answer">ASR</li>
-                        <li class="right_answer">Алиса, какую ожидать погоду завтра?</li>
-                        <li class="right_answer">Intent classifier</li>
-                        <li class="right_answer">get_weather</li>
-                        <li class="right_answer">get_weather tagger</li>
-                        <li class="right_answer">intent: get_weather when:+1 day where:?</li>
-                        <li class="right_answer">dialog manager</li>
-                        <li class="right_answer">Прогноз погоды на завтра в Москве:...</li>
-                        <li class="right_answer">TTS</li>
-                        <li class="right_answer">Воспроизведение ответа</li>
-                    </ul>
-                    <button id="showAnswer" class="ui-button ui-widget ui-corner-all" onclick="showAnswers()">Показать правильный ответ</button>
-                    <button id="showList" class="ui-button ui-widget ui-corner-all hide" onclick="showList()">Вернуться</button>
-                </div>
-            </div>
+      <div class="row">
+        <div class="text" id="page6_text">
+          <p>
+            Рассмотрим алгоритм работы ИИ на примере Алисы (голосовой помощник от Яндекса).
+          </p>
+          <p>
+            Первым делом после того, как мы что-то говорим в данном голосовом помощнике,
+            начинается перевод информации из голоса в текст – это один из главных примеров машинного обучения.
+          </p>
+          <p>
+            Затем работает алгоритм, который определяет, что же в этой фразе хотел сказать пользователь.
+            Текст перерабатывается и разделяется на самые важные составляющие, по которым с помощью модуля dialog
+            manager,
+            начинается поиск ответа. Стоит отметить, что в dialog manager нет никакого машинного обучения,
+            в нем есть только специально написанные скрипты и большое количество правил.
+            Именно здесь и генерируются ответы для поставленного вопроса.
+          </p>
+          <p>
+            Подобного рода голосовые помощники – достаточно сложные по своей организации сервисы,
+            так как в них присутствует большое количество данных, на основе которых идет машинное обучение,
+            постоянное дообучение и отработка частных случаев – исключений.
+          </p>
+          <p>
+            Подробнее о том, как устроена Алиса, можно узнать по ссылке https://habr.com/ru/company/yandex/blog/349372/
+          </p>
         </div>
+        <div id="alice">
+          <div id="aliceGame">
+            <h3 style="color: #fff;">Восстановите схему</h3>
+            <ul id="image-list1" class="sortable-list" style="color: black;">
+              <li class="page6__item" id="a2">ASR</li>
+              <li class="page6__item" id="a1">Пользователь говорит команду</li>
+              <li class="page6__item" id="a3">Алиса, какую ожидать погоду завтра?</li>
+              <li class="page6__item" id="a4">Intent classifier</li>
+              <li class="page6__item" id="a5">get_weather</li>
+              <li class="page6__item" id="a6">get_weather tagger</li>
+              <li class="page6__item" id="a7">intent: get_weather when:+1 day where:?</li>
+              <li class="page6__item" id="a8">dialog manager</li>
+              <li class="page6__item" id="a9">Прогноз погоды на завтра в Москве:...</li>
+              <li class="page6__item" id="a10">TTS</li>
+              <li class="page6__item" id="a11">Воспроизведение ответа</li>
+            </ul>
+            <ul id="answer-list" class="sortable-list" style="color: black;">
+              <li class="page6__item right_answer">Пользователь говорит команду</li>
+              <li class="page6__item right_answer">ASR</li>
+              <li class="page6__item right_answer">Алиса, какую ожидать погоду завтра?</li>
+              <li class="page6__item right_answer">Intent classifier</li>
+              <li class="page6__item right_answer">get_weather</li>
+              <li class="page6__item right_answer">get_weather tagger</li>
+              <li class="page6__item right_answer">intent: get_weather when:+1 day where:?</li>
+              <li class="page6__item right_answer">dialog manager</li>
+              <li class="page6__item right_answer">Прогноз погоды на завтра в Москве:...</li>
+              <li class="page6__item right_answer">TTS</li>
+              <li class="page6__item right_answer">Воспроизведение ответа</li>
+            </ul>
+      
+              <button id="showAnswer" class="page6__btn ui-button ui-widget ui-corner-all" onclick="showAnswers()">
+                <span class="page6__btn-text">Показать правильный ответ</span>
+                <div class="page6__btn-effect"></div>
+              </button>
+              <button id="showList" class="page6__btn ui-button ui-widget ui-corner-all hide" onclick="showList()">
+                <span class="page6__btn-text">Вернуться</span>
+                <div class="page6__btn-effect"></div>
+              </button>
+        
+          </div>
+        </div>
+      </div>
     </div>
-    <a href="#page7"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page7"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page7" class="page">
+  <section id="page7" class="page">
     <div class="table">
-        <div class="row">
-            <div class="img" id="page7_img">
-                <img src="img/2.4.7.png" alt="Изображение"  >
-                <h6>Рис. 7. Потенциал автоматизации стран</h6>
-            </div>
-            <div class="text" id="page7_text">
-                <p>
-                    Можно утверждать, что искусственный интеллект и анализ данных значительно облегчили нам жизнь. 
-                    Кроме того, они начинают влиять на ландшафт рынка труда: 
-                    работодателям проще один раз разработать алгоритм для замены однотипной работы человека, 
-                    которому нужно платить заработную плату каждый месяц и который не застрахован от ошибок, 
-                    вызванных человеческими факторами.
-                </p>
-            </div>  
+      <div class="row page7__content">
+        <div class="img" id="page7_img">
+          <img src="img/2.4.7.png" alt="Изображение">
+          <h6>Рис. 7. Потенциал автоматизации стран</h6>
         </div>
+        <div class="text" id="page7_text">
+          <p>
+            Можно утверждать, что искусственный интеллект и анализ данных значительно облегчили нам жизнь.
+            Кроме того, они начинают влиять на ландшафт рынка труда:
+            работодателям проще один раз разработать алгоритм для замены однотипной работы человека,
+            которому нужно платить заработную плату каждый месяц и который не застрахован от ошибок,
+            вызванных человеческими факторами.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page8"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page8"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page8" class="page">
+  
+  <section id="page23" class="page page23">
+    <div class="container-cards">
+      <ul class="cards">
+        <li class="card cards__item">
+          <div class="card__frame">
+            <div class="card__picture">
+              <img class="card__img" src="https://image.flaticon.com/icons/svg/1496/1496034.svg" alt="" width="120">
+            </div>
+            <h2 class="card__title">Интересные</h2>
+          </div>
+          <div class="card__overlay"></div>
+          <div class="card__content">
+            <h2 class="card__content-heading">Факт 1</h2>
+            <p>Британский математик по имени Алан Тьюринг является одним из отцов-основателей теории и развития искусственного интеллекта. Тест помогает человеку, оценивающему ИИ, понять, может ли мыслить ИИ. На основании вопросов, на которые отвечает бот, человек может определить, проявил ли бот поведение, достаточно интеллектуальное, чтобы быть эквивалентным или неотличимым от поведения человека.</p>
+          </div>
+        </li>
+        <li class="card cards__item">
+          <div class="card__frame">
+            <div class="card__picture">
+              <img class="card__img" src="https://image.flaticon.com/icons/svg/1336/1336494.svg" alt="" width="120">
+            </div>
+            <h2 class="card__title">факты</h2>
+          </div>
+          <div class="card__overlay"></div>
+          <div class="card__content">
+            <h2 class="card__content-heading">Факт 2</h2>
+            <p>Существует несколько различных типов искусственного интеллекта. Один из них называется Expert Systems. Этот тип искусственного интеллекта основан на знаниях и предназначен для отображения и имитации аспектов интеллектуального поведения. В конечном счете, цель этого типа ИИ заключается в том, чтобы подражать человеческим способностям восприятия и познания. Видеоигры, которыми пользуются миллионы людей ежедневно, используют этот тип ИИ.</p>
+          </div>
+        </li>
+        <li class="card cards__item">
+          <div class="card__frame">
+            <div class="card__picture">
+              <img class="card__img" src="https://image.flaticon.com/icons/svg/478/478543.svg" alt="" width="120">
+            </div>
+            <h2 class="card__title">об</h2>
+          </div>
+          <div class="card__overlay"></div>
+          <div class="card__content">
+            <h2 class="card__content-heading">Факт 3</h2>
+            <p> Facebook и Twitter — две компании, использующие ИИ для сопоставления людей с соответствующим контентом на соответствующих сайтах. Google один из первых совершенствовал использование ИИ, чтобы помочь людям в поиске информации.</p>
+          </div>
+        </li>
+        <li class="card cards__item">
+          <div class="card__frame">
+            <div class="card__picture">
+              <img class="card__img" src="https://image.flaticon.com/icons/svg/478/478543.svg" alt="" width="120">
+            </div>
+            <h2 class="card__title">искуственном<br>интеллекте</h2>
+          </div>
+          <div class="card__overlay"></div>
+          <div class="card__content">
+            <h2 class="card__content-heading">Факт 4</h2>
+            <p>Sony Aibo была одной из первых «игрушек», которую вы могли купить и взаимодействовать с ИИ. Aibo — это роботизированная собака, которая может исследовать что-либо, играть и выражать такие эмоции, как грусть и счастье. Одной из его уникальных черт было то, что он мог даже признать своего владельца! Современная и более дорогая версия — Manobot робота Softbank’s Pepper..</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="page8" class="page">
     <div class="right-buttons hide" id="fact_1">
-        <div  id="icon" class="menu-button">
-         <img src="animations/info.svg"  id="btn" alt="" width="100%;">
-        </div>
-        <div id="div1" class="slide">
-          <h3>Большинство ИИ – «женщины».</h3>
-          Большая часть современных ИИ – таких, как Google Now, Сири и Кортана <br> – по умолчанию говорят женским голосом. Никаких особых причин тому нет,<br> хотя исследования показали, что аудитория любого пола предпочитает женский<br> голос мужскому, как менее угрожающий.
-        </div>
+      <div id="icon" class="menu-button">
+        <img src="animations/info.svg" id="btn" alt="" width="100%;">
+      </div>
+      <div id="div1" class="slide">
+        <h3>Большинство ИИ – «женщины».</h3>
+        Большая часть современных ИИ – таких, как Google Now, Сири и Кортана <br> – по умолчанию говорят женским
+        голосом. Никаких особых причин тому нет,<br> хотя исследования показали, что аудитория любого пола предпочитает
+        женский<br> голос мужскому, как менее угрожающий.
+      </div>
     </div>
     <div class="table">
-        <div class="row">
-            <div class="text" id="page8_text">
-                <p>
-                    Одна из передовых областей применения алгоритмов ИИ – это сфера работы банков. 
-                    На их примере отчетливо видно, как разработанные алгоритмы могут заменить работу большого количества людей. 
-                    Например, нейросети обучены на борьбу с мошенничеством. 
-                    Система помогает различить аномалии в действиях клиента при заполнении формы заявки на банковском сайте, 
-                    и, в случае обнаружения таких данных, анкета изучается более тщательно.
-                </p>
-            </div>
-            <div class="img" id="page8_img">
-                <img src="img/2.4.8.png" alt="Изображение">
-                <h6>Рис. 8. Области применения искусственного интеллекта с наибольшим потенциалом</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page8_text">
+          <p>
+            Одна из передовых областей применения алгоритмов ИИ – это сфера работы банков.
+            На их примере отчетливо видно, как разработанные алгоритмы могут заменить работу большого количества людей.
+            Например, нейросети обучены на борьбу с мошенничеством.
+            Система помогает различить аномалии в действиях клиента при заполнении формы заявки на банковском сайте,
+            и, в случае обнаружения таких данных, анкета изучается более тщательно.
+          </p>
         </div>
+        <div class="img" id="page8_img">
+          <img src="img/2.4.8.png" alt="Изображение">
+          <h6>Рис. 8. Области применения искусственного интеллекта с наибольшим потенциалом</h6>
+        </div>
+      </div>
     </div>
-    <a href="#page9"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page9"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page9" class="page">
+  <section id="page9" class="page">
     <div class="table">
-        <div class="row">
-            <div class="img" id="page9_img">
-                <img src="img/2.4.9.png" alt="Изображение"  >
-                <h6>Рис. 9. Возможности искусственного интеллекта при работе с клиентами банка</h6>
-            </div>
-            <div class="text" id="page9_text">
-                <p>
-                    Так же технологии используются для предсказывания ответа клиента при звонках с предложениями по рефинансированию кредитов. 
-                    Применение машин с целью принятия эффективных управленческих решений, оптимизации работы с клиентской базой, 
-                    анализ эффективности инвестиций без влияния человеческого фактора или его снижение до минимума, определяет выбор решений, 
-                    которые основываются только полученной информацией без субъективного подхода, которая, 
-                    как правило, накладывает отрицательный эффект. Помимо этого, банки разрабатывают системы кредитования, 
-                    основанные на анализе платежеспособности клиента без участия специалиста. 
-                    Все эти технологии позволяют банкам вкладываться в разработку и поддержание систем и интеллектуальных технологий, 
-                    что зачастую оказывается дешевле и эффективнее содержания большого количества сотрудников. 
-                    Поэтому в финансовых сферах за последнее время идут большие сокращения, так как большинство процессов, 
-                    которые совершают сотрудники банков, можно автоматизировать и применить машинное обучение.
-                </p>
-            </div>
+      <div class="row">
+        
+        <div class="img" id="page9_img">
+          <img src="img/2.4.9.png" alt="Изображение">
+          <h6>Рис. 9. Возможности искусственного интеллекта при работе с клиентами банка</h6>
         </div>
+        <div class="text" id="page9_text">
+          <p>
+            Так же технологии используются для предсказывания ответа клиента при звонках с предложениями по
+            рефинансированию кредитов.
+            Применение машин с целью принятия эффективных управленческих решений, оптимизации работы с клиентской базой,
+            анализ эффективности инвестиций без влияния человеческого фактора или его снижение до минимума, определяет
+            выбор решений,
+            которые основываются только полученной информацией без субъективного подхода, которая,
+            как правило, накладывает отрицательный эффект. Помимо этого, банки разрабатывают системы кредитования,
+            основанные на анализе платежеспособности клиента без участия специалиста.
+            Все эти технологии позволяют банкам вкладываться в разработку и поддержание систем и интеллектуальных
+            технологий,
+            что зачастую оказывается дешевле и эффективнее содержания большого количества сотрудников.
+            Поэтому в финансовых сферах за последнее время идут большие сокращения, так как большинство процессов,
+            которые совершают сотрудники банков, можно автоматизировать и применить машинное обучение.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page10"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page10"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page10" class="page">
+  <section id="page10" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page10_text">
-                <p>
-                    Перейдем непосредственно к рассмотрению типовых задач, которые может решать искусственный интеллект. 
-                    Таких задач пока относительно небольшое количество. К ним относятся:
-                </p>
-            </div>
-            <div class="img" id="page10_img">
-                
-                <ul id="myList"> 
-                    <li style="list-style-type: none;">1. Классификация</li>
-                    <li style="list-style-type: none;">2. Кластеризация</li>
-                    <li style="list-style-type: none;">3. Регрессия</li>
-                    <li style="list-style-type: none;">4. Понижение размерности</li>
-                    <li style="list-style-type: none;">5. Обучение с подкреплением</li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="text" id="page10_text">
+          <p>
+            Перейдем непосредственно к рассмотрению типовых задач, которые может решать искусственный интеллект.
+            Таких задач пока относительно небольшое количество. К ним относятся:
+          </p>
         </div>
+        <div class="img page10__list" id="page10_img">
+          <div class="timeline-wrapper">
+            <ul class="timelin-main">
+              <li class="timeline-main__item">
+                <div class="timeline-main__block">
+                  <a href="#classification" class="timeline-main__link">
+                    <h2 class="timeline-main__heading">1. Классификация</h2>
+                  </a>
+                </div>
+              </li>
+              <li class="timeline-main__item">
+                <div class="timeline-main__block">
+                  <a href="#clustering" class="timeline-main__link">
+                    <h2 class="timeline-main__heading">2. Кластеризация</h2>
+                  </a>
+                </div>
+              </li>
+              <li class="timeline-main__item">
+                <div class="timeline-main__block">
+                  <a href="#regression" class="timeline-main__link">
+                    <h2 class="timeline-main__heading">3. Регрессия</h2>
+                  </a>
+                </div>
+              </li>
+              <li class="timeline-main__item">
+                <div class="timeline-main__block">
+                  <a href="#dimension" class="timeline-main__link">
+                    <h2 class="timeline-main__heading">4. Понижение размерности</h2>
+                  </a>
+                </div>
+              </li>
+              <li class="timeline-main__item">
+                <div class="timeline-main__block">
+                  <a href="#education" class="timeline-main__link">
+                    <h2 class="timeline-main__heading">5. Обучение с подкреплением</h2>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <a href="#page11"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page11"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page11" class="page">
+  <section id="page11" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page11_text">
-                <p>
-                    Классификация. В рамках этой задачи мы пытаемся отнести тот или иной объект данных к определенной, 
-                    заранее заданной категории. Например, задача определения тональности отзыва на товар относится к типичной задаче классификации текстов.
-                </p>
-                <p>
-                    Так же классификацию можно объяснить, как получение категориального ответа на основе набора признаков. 
-                    Имеет конечное количество ответов (как правило, в формате «да» или «нет»): есть ли на фотографии дерево? 
-                    Распознавание человеческих лиц на фото и видео? есть ли на медицинском рентгеновском снимке или снимке томографии патологии?
-                </p>
-                <p>
-                    Классификация применяется для таких задач, как предсказание месторождений полезных ископаемых, 
-                    оценка кредитоспособности заёмщиков, задач медицинской диагностики и т. д.
-                </p>
-            </div>
-            <div class="img" id="page11_img">
-                <img src="img/2.4.10.png" alt="Изображение"  >
-                <h6>Рис. 10. Классификация</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page11_text">
+          <p id="classification">
+            Классификация. В рамках этой задачи мы пытаемся отнести тот или иной объект данных к определенной,
+            заранее заданной категории. Например, задача определения тональности отзыва на товар относится к типичной
+            задаче классификации текстов.
+          </p>
+          <p>
+            Так же классификацию можно объяснить, как получение категориального ответа на основе набора признаков.
+            Имеет конечное количество ответов (как правило, в формате «да» или «нет»): есть ли на фотографии дерево?
+            Распознавание человеческих лиц на фото и видео? есть ли на медицинском рентгеновском снимке или снимке
+            томографии патологии?
+          </p>
+          <p>
+            Классификация применяется для таких задач, как предсказание месторождений полезных ископаемых,
+            оценка кредитоспособности заёмщиков, задач медицинской диагностики и т. д.
+          </p>
         </div>
+        <div class="img" id="page11_img">
+          <img src="img/2.4.10.png" alt="Изображение">
+          <h6>Рис. 10. Классификация</h6>
+        </div>
+      </div>
     </div>
-    <a href="#page12"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page12"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page12" class="page">
+  <section id="page12" class="page">
     <div class="table">
-        <div class="row">
-            <div class="img" id="page12_img">
-                <img src="img/2.4.11.png" alt="Изображение"  >
-                <h6>
-                    Рис. 11. Проект Selfiecity
-                    http://manovich.net/content/04-projects/086-selfiecity-exploring/05-selfiexploratory-tilt-right.web.jpg
-                    (дата обращения: 30.04.2020)
-                </h6>
-            </div>
-            <div class="text" id="page12_text">
-                <p>
-                    В 2014 году под руководством Льва Мановича был запущен проект под названием Selfiecity. 
-                    Суть заключается в изучении стиля автопортретов (селфи) как культурного феномена в пяти различных городах мира. 
-                    Проект отвечает на ряд вопросов. Все ли селфи делаются молодыми людьми? Делают ли мужчины много селфи? 
-                    Пытаемся ли мы копировать знаменитостей на фотографиях? Существуют ли какие-либо существенные различия между селфи в Нью-Йорке и Москве или Берлине и Бангкоке? 
-                    Selfiecity дает на них ответы, используя 3200 фотографий из Instagram и методы классификации с применением алгоритмов машинного обучения. 
-                    В результате получаются видеомонтажи с сотнями изображений, трансформирующимися в «общее лицо города», по которому можно делать выводы о демографии людей, 
-                    загружающих свои селфи, их позах и выражениях лица.
-                </p>
-            </div>
+      <div class="row">
+        <div class="img" id="page12_img">
+          <img src="img/2.4.11.png" alt="Изображение">
+          <h6>
+            Рис. 11. Проект Selfiecity
+            http://manovich.net/content/04-projects/086-selfiecity-exploring/05-selfiexploratory-tilt-right.web.jpg
+            (дата обращения: 30.04.2020)
+          </h6>
         </div>
+        <div class="text" id="page12_text">
+          <p>
+            В 2014 году под руководством Льва Мановича был запущен проект под названием Selfiecity.
+            Суть заключается в изучении стиля автопортретов (селфи) как культурного феномена в пяти различных городах
+            мира.
+            Проект отвечает на ряд вопросов. Все ли селфи делаются молодыми людьми? Делают ли мужчины много селфи?
+            Пытаемся ли мы копировать знаменитостей на фотографиях? Существуют ли какие-либо существенные различия между
+            селфи в Нью-Йорке и Москве или Берлине и Бангкоке?
+            Selfiecity дает на них ответы, используя 3200 фотографий из Instagram и методы классификации с применением
+            алгоритмов машинного обучения.
+            В результате получаются видеомонтажи с сотнями изображений, трансформирующимися в «общее лицо города», по
+            которому можно делать выводы о демографии людей,
+            загружающих свои селфи, их позах и выражениях лица.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page13"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page13"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page13" class="page">
+  <section id="page13" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page13_text">
-                <p>
-                    Следующая типовая задача – это кластеризация. Ее мы будем использовать, когда нам нужно будет сгруппировать объекты данных, основываясь на признаках, скрытых в этих данных. С помощью кластеризации можно выделить сегменты с группами "похожих" объектов. Данный алгоритм дает возможность выделить характерные признаки и персональные предпочтения клиентов, оценить наиболее и наименее доходные или активные сегменты. Это позволяет решить задачи разработки маркетинговых акций, направленных на определенные сегменты клиентов, повышает эффективность работы с ними.
-                </p>
-                <p>
-                    Персональные предложения банков для клиентов также основаны на кластеризации. На основе анализа доходов, расходов и предпочтений определенного человека ему в приложении либо при звонке от сотрудников банка предлагаются продукты, на которые клиент в последнее время наиболее ориентирован.
-                </p>
-            </div>
-            <div class="img" id="page13_img">
-                <img src="img/2.4.12.png" alt="Изображение"  >
-                <h6>Рис. 12. Кластеризация</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page13_text">
+          <p id="clustering">
+            Следующая типовая задача – это кластеризация. Ее мы будем использовать, когда нам нужно будет сгруппировать
+            объекты данных, основываясь на признаках, скрытых в этих данных. С помощью кластеризации можно выделить
+            сегменты с группами "похожих" объектов. Данный алгоритм дает возможность выделить характерные признаки и
+            персональные предпочтения клиентов, оценить наиболее и наименее доходные или активные сегменты. Это
+            позволяет решить задачи разработки маркетинговых акций, направленных на определенные сегменты клиентов,
+            повышает эффективность работы с ними.
+          </p>
+          <p>
+            Персональные предложения банков для клиентов также основаны на кластеризации. На основе анализа доходов,
+            расходов и предпочтений определенного человека ему в приложении либо при звонке от сотрудников банка
+            предлагаются продукты, на которые клиент в последнее время наиболее ориентирован.
+          </p>
         </div>
+        <div class="img" id="page13_img">
+          <img src="img/2.4.12.png" alt="Изображение">
+          <h6>Рис. 12. Кластеризация</h6>
+        </div>
+      </div>
     </div>
-    <a href="#page14"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page14"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page14" class="page">
+  <section id="page14" class="page">
     <div class="table">
-        <div class="row">
-            <div class="img" id="page14_img">
-                <img src="img/2.4.13.png" alt="Изображение">
-                <h6>
-                    Рис. 13. Программа распознавания символов ABBY FineReader
-                    https://static2.abbyy.com/abbyycommedia/22947/4-vybor-oblastej-raspoznavaniya.gif
-                    (дата обращения: 30.04.2020)
-                </h6>
-            </div>
-            <div class="text" id="page14_text">
-                <p>
-                    Пример использования кластеризации, с которым вы могли сталкиваться при работе с документами, – это программа для оптического распознавания символов ABBYY FineReader. Она позволяет переводить изображения документов (фотографий, результатов сканирования, PDF-файлов) в электронные редактируемые форматы.
-                </p>
-            </div>
+      <div class="row">
+        <div class="img" id="page14_img">
+          <img src="img/2.4.13.png" alt="Изображение">
+          <h6>
+            Рис. 13. Программа распознавания символов ABBY FineReader
+            https://static2.abbyy.com/abbyycommedia/22947/4-vybor-oblastej-raspoznavaniya.gif
+            (дата обращения: 30.04.2020)
+          </h6>
         </div>
+        <div class="text" id="page14_text">
+          <p>
+            Пример использования кластеризации, с которым вы могли сталкиваться при работе с документами, – это
+            программа для оптического распознавания символов ABBYY FineReader. Она позволяет переводить изображения
+            документов (фотографий, результатов сканирования, PDF-файлов) в электронные редактируемые форматы.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page15"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page15"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page15" class="page">
+  <section id="page15" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page15_text-1">
-                <p>
-                    Регрессия – это прогноз на основе выборки объектов с различными признаками. Регрессия используется не для предсказания категории из конечного набора категорий, как это делается в задаче классификации, а для предсказания конкретного числового значения.
-                </p>
-                <p>
-                    Например, регрессия используется для:
-                </p>
-                <ul>
-                    <li>
-                        предсказания стоимости недвижимости, в зависимости от таких параметров, как площадь помещения, район, тип дома и т. д;
-                    </li>
-                    <li>
-                        прогнозирования стоимости ценных бумаг, в зависимости от таких параметров, как чистая прибыль компании, доход, рентабельность выручки и прочее.
-                    </li>
-                </ul>
-            </div>
-            <div class="img" id="page15_img-1">
-                <img src="img/2.4.14.png" alt="Изображение"  >
-                <h6>Рис. 14. Линейная регрессия</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page15_text-1">
+          <p id="regression">
+            Регрессия – это прогноз на основе выборки объектов с различными признаками. Регрессия используется не для
+            предсказания категории из конечного набора категорий, как это делается в задаче классификации, а для
+            предсказания конкретного числового значения.
+          </p>
+          <p>
+            Например, регрессия используется для:
+          </p>
+          <ul>
+            <li>
+              предсказания стоимости недвижимости, в зависимости от таких параметров, как площадь помещения, район, тип
+              дома и т. д;
+            </li>
+            <li>
+              прогнозирования стоимости ценных бумаг, в зависимости от таких параметров, как чистая прибыль компании,
+              доход, рентабельность выручки и прочее.
+            </li>
+          </ul>
         </div>
-        <div class="row">
-            <div class="img" id="page15_img-2">
-                <img src="img/2.4.15.png" alt="Изображение"  >
-                <h6  >Рис. 15. Веб-сервис Яндекс.Пробки</h6>
-            </div>
-            <div class="text" id="page15_text-2">
-                <p>
-                    Каждый день регрессия используется и всем известным веб-сервисом Яндекс.Пробки. Предсказание движения дорожного трафика будет определяться именно решением типовой задачи для искусственного интеллекта.
-                </p>
-            </div>
+        <div class="img" id="page15_img-1">
+          <img src="img/2.4.14.png" alt="Изображение">
+          <h6>Рис. 14. Линейная регрессия</h6>
         </div>
+      </div>
+      <div class="row">
+        <div class="img" id="page15_img-2">
+          <img src="img/2.4.15.png" alt="Изображение">
+          <h6>Рис. 15. Веб-сервис Яндекс.Пробки</h6>
+        </div>
+        <div class="text" id="page15_text-2">
+          <p>
+            Каждый день регрессия используется и всем известным веб-сервисом Яндекс.Пробки. Предсказание движения
+            дорожного трафика будет определяться именно решением типовой задачи для искусственного интеллекта.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page16"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page16"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page16" class="page">
+  <section id="page16" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page16_text-1">
-                <p>
-                    Понижение размерности – сведение большого числа признаков к меньшему для удобства их последующей визуализации. Часто, данные при их анализе представляются в виде многомерных векторов, размерность которых доходит до 2–3 тыс. измерений. Понятно, что проводить анализ таких векторов очень трудная задача. Но нам на помощь приходят алгоритмы понижения размерности. Они отбрасывают те измерения, которые несут меньше всего информации. В итоге можно превратить многомерные вектора в 2-х - 3-х мерные и провести их визуализацию.
-                </p>
-                <p>
-                    Иными словами, алгоритмы понижения размерности применяются для:
-                </p>
-                <ul>
-                    <li>
-                        преобразования выборки таким образом, чтобы в итоге получилось как можно меньше зашумленных и разреженных данных;
-                    </li>
-                    <li>
-                        визуализации данных;
-                    </li>
-                    <li>
-                        предобработки данных для уменьшения затрат по времени и памяти.
-                    </li>
-                </ul>
-            </div>
-            <div class="img"  id="page16_img-1">
-                <img src="img/2.4.16.png" alt="Изображение"  >
-                <h6>Рис. 16. Понижение размерности</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page16_text-1">
+          <p id="dimension">
+            Понижение размерности – сведение большого числа признаков к меньшему для удобства их последующей
+            визуализации. Часто, данные при их анализе представляются в виде многомерных векторов, размерность которых
+            доходит до 2–3 тыс. измерений. Понятно, что проводить анализ таких векторов очень трудная задача. Но нам на
+            помощь приходят алгоритмы понижения размерности. Они отбрасывают те измерения, которые несут меньше всего
+            информации. В итоге можно превратить многомерные вектора в 2-х - 3-х мерные и провести их визуализацию.
+          </p>
+          <p>
+            Иными словами, алгоритмы понижения размерности применяются для:
+          </p>
+          <ul>
+            <li>
+              преобразования выборки таким образом, чтобы в итоге получилось как можно меньше зашумленных и разреженных
+              данных;
+            </li>
+            <li>
+              визуализации данных;
+            </li>
+            <li>
+              предобработки данных для уменьшения затрат по времени и памяти.
+            </li>
+          </ul>
         </div>
-        <div class="row">
-            <div class="img" id="page16_img-2">
-                <img src="img/2.4.17.png" alt="Изображение"  >
-                <h6>
-                    Рис. 17. Примеры архиваторов данных
-                    https://mycompplus.ru/-windows/2-windows-xp-1/2404-2014-08-14-08-45-34.html
-                    (дата обращения: 30.04.2020)
-                </h6>
-            </div>
-            <div class="text" id="page16_text-2">
-                <p>
-                    Примером могут послужить такие архиваторы данных, как WinRaR, WinZip, 7-zip и другие. Они предназначены для упаковки без потерь одного и более файлов в единый файл-архив или в серию архивов для удобства переноса и/или хранения данных.
-                </p>
-            </div>
+        <div class="img" id="page16_img-1">
+          <img src="img/2.4.16.png" alt="Изображение">
+          <h6>Рис. 16. Понижение размерности</h6>
         </div>
+      </div>
+      <div class="row">
+        <div class="img" id="page16_img-2">
+          <img src="img/2.4.17.png" alt="Изображение">
+          <h6>
+            Рис. 17. Примеры архиваторов данных
+            https://mycompplus.ru/-windows/2-windows-xp-1/2404-2014-08-14-08-45-34.html
+            (дата обращения: 30.04.2020)
+          </h6>
+        </div>
+        <div class="text" id="page16_text-2">
+          <p>
+            Примером могут послужить такие архиваторы данных, как WinRaR, WinZip, 7-zip и другие. Они предназначены для
+            упаковки без потерь одного и более файлов в единый файл-архив или в серию архивов для удобства переноса
+            и/или хранения данных.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page17"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page17"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page17" class="page">
+  <section id="page17" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page17_text-1">
-                <p>
-                    Обучение с подкреплением. В этом классе задач используются алгоритмы, которые получают обратную связь от окружающего мира. Предположим, что мы хотим научить робота проходить по лабиринту. Для этого мы используем обучение с подкреплением и будем штрафовать робота каждый раз, когда он врезается в стену или едет не в том направлении, и поощрять его, если он проехал некоторое расстояние в правильном направлении.
-                </p>
-            </div>
-            <div class="img" id="page17_img-1">
-                <img src="img/2.4.18.png" alt="Изображение"  >
-                <h6>Рис. 18. Обучение с подкреплением</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page17_text-1">
+          <p id="education">
+            Обучение с подкреплением. В этом классе задач используются алгоритмы, которые получают обратную связь от
+            окружающего мира. Предположим, что мы хотим научить робота проходить по лабиринту. Для этого мы используем
+            обучение с подкреплением и будем штрафовать робота каждый раз, когда он врезается в стену или едет не в том
+            направлении, и поощрять его, если он проехал некоторое расстояние в правильном направлении.
+          </p>
         </div>
-        <div class="row">
-            <div class="img" id="page17_img-2">
-                <img src="img/2.4.19.png" alt="Изображение"  >
-                <h6>
-                    Рис. 19. Программа AlphaGo
-                    https://www.computerworld.ru/FileStorage/ARTICLE/Computerworld_Online/2016-03/0314_16/13185503/Computerworld_Online_002_(8676).jpg
-                </h6>
-            </div>
-            <div class="text" id="page17_text-2">
-                <p>
-                    Подобный алгоритм использовался при разработке AlphaGo – всемирно известной программы ИИ для игры в го, разработанной компанией Google DeepMind в 2015 году. В 2016 году программа выиграла матч у профессионального игрока в го, Ли Седоля. Эта победа ознаменовала собой важный прорыв в области искусственного интеллекта, так как считалось, что подобная программа не будет создана ранее 2020—2025 годов.
-                </p>
-                <p>
-                    AlphaGo основана на общих принципах машинного обучения и практически не использует (в отличие от шахматных программ) ни алгоритмов, ни оценочных функций, специфичных для игры в го. При разработке AlphaGo авторы использовали только самую элементарную теорию игры в го, программа достигла высокого уровня игры, обучаясь сама на партиях профессионалов.
-                </p>    
-            </div>
+        <div class="img" id="page17_img-1">
+          <img src="img/2.4.18.png" alt="Изображение">
+          <h6>Рис. 18. Обучение с подкреплением</h6>
         </div>
+      </div>
+      <div class="row">
+        <div class="img" id="page17_img-2">
+          <img src="img/2.4.19.png" alt="Изображение">
+          <h6>
+            Рис. 19. Программа AlphaGo
+            https://www.computerworld.ru/FileStorage/ARTICLE/Computerworld_Online/2016-03/0314_16/13185503/Computerworld_Online_002_(8676).jpg
+          </h6>
+        </div>
+        <div class="text" id="page17_text-2">
+          <p>
+            Подобный алгоритм использовался при разработке AlphaGo – всемирно известной программы ИИ для игры в го,
+            разработанной компанией Google DeepMind в 2015 году. В 2016 году программа выиграла матч у профессионального
+            игрока в го, Ли Седоля. Эта победа ознаменовала собой важный прорыв в области искусственного интеллекта, так
+            как считалось, что подобная программа не будет создана ранее 2020—2025 годов.
+          </p>
+          <p>
+            AlphaGo основана на общих принципах машинного обучения и практически не использует (в отличие от шахматных
+            программ) ни алгоритмов, ни оценочных функций, специфичных для игры в го. При разработке AlphaGo авторы
+            использовали только самую элементарную теорию игры в го, программа достигла высокого уровня игры, обучаясь
+            сама на партиях профессионалов.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page18"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page18"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page18" class="page">
+  <section id="page18" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page18_text-1">
-                <p>
-                    Давайте рассмотрим типичную модель искусственного интеллекта, которая состоит из трех частей: данных, алгоритма, который позволяет выделять из этих данных нужные для решения данной задачи зависимости и метрик проверки качества работы алгоритма, которые позволяют сказать насколько хорошо алгоритм выделил зависимости и тем самым справился с поставленной ему задачей.
-                </p>
-            </div>
-            <div class="img" id="page18_img-1">
-                <img src="img/2.4.20.png" alt="Изображение"  >
-                <h6>Рис. 20. Модель искусственного интеллекта</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page18_text-1">
+          <p>
+            Давайте рассмотрим типичную модель искусственного интеллекта, которая состоит из трех частей: данных,
+            алгоритма, который позволяет выделять из этих данных нужные для решения данной задачи зависимости и метрик
+            проверки качества работы алгоритма, которые позволяют сказать насколько хорошо алгоритм выделил зависимости
+            и тем самым справился с поставленной ему задачей.
+          </p>
         </div>
-        <div class="row">
-            <div class="img" id="page18_img-2">
-                <img src="img/2.4.21.png" alt="Изображение"  >
-                <h6>Рис. 21. Отрасли, использующие искусственный интеллект</h6>
-            </div>
-            <div class="text" id="page18_text-2">
-                <p>
-                    Исходя из приведенных выше примеров, можно сделать следующий вывод: искусственный интеллект - большое достижения человека. Благодаря таким системам получилась возможность решать в короткое время задачи, на которые раньше требовалось большое количество энерго- и временных затрат. ИИ охватывает все больше сфер жизни человека и планомерно затрагивает даже те области, которые раньше были вне самых смелых обсуждений исследователей.
-                </p>  
-            </div>
+        <div class="img" id="page18_img-1">
+          <img src="img/2.4.20.png" alt="Изображение">
+          <h6>Рис. 20. Модель искусственного интеллекта</h6>
         </div>
+      </div>
+      <div class="row">
+        <div class="img" id="page18_img-2">
+          <img src="img/2.4.21.png" alt="Изображение">
+          <h6>Рис. 21. Отрасли, использующие искусственный интеллект</h6>
+        </div>
+        <div class="text" id="page18_text-2">
+          <p>
+            Исходя из приведенных выше примеров, можно сделать следующий вывод: искусственный интеллект - большое
+            достижения человека. Благодаря таким системам получилась возможность решать в короткое время задачи, на
+            которые раньше требовалось большое количество энерго- и временных затрат. ИИ охватывает все больше сфер
+            жизни человека и планомерно затрагивает даже те области, которые раньше были вне самых смелых обсуждений
+            исследователей.
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page19"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page19"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page19" class="page">
+  <section id="page19" class="page">
     <div class="right-buttons hide" id="fact_2">
-        <div  id="icon" class="menu-button">
-         <img src="animations/info.svg"  id="btn2" alt="" width="100%;">
-        </div>
-        <div id="div2" class="slide">
-          <h3>ИИ способен научиться всему, что умеет человек</h3>
-          Исследователи ожидают, что уже к 2060 году искусственный интеллект сможет<br> самостоятельно выполнять почти все человеческие задачи. Например, ученые<br> Оксфордского университета в сотрудничестве с подразделением Google DeepMind<br> AI научили систему читать по губам лучше, чем это делают люди. Программа <br>Watch, Attend and Spell улавливает разницу даже между похожими по движениям губ<br> словами и разбирает до 50% тихой речи. У специалистов, читающих по губам, этот же показатель<br> составляет всего 12%. Система обучалась на просмотре программ новостей BBC. После изучения<br>118 000 предложений из видеороликов в словарном запасе Watch, Attend and Spell более 17 500 слов.
-        </div>
+      <div id="icon" class="menu-button">
+        <img src="animations/info.svg" id="btn2" alt="" width="100%;">
+      </div>
+      <div id="div2" class="slide">
+        <h3>ИИ способен научиться всему, что умеет человек</h3>
+        Исследователи ожидают, что уже к 2060 году искусственный интеллект сможет<br> самостоятельно выполнять почти все
+        человеческие задачи. Например, ученые<br> Оксфордского университета в сотрудничестве с подразделением Google
+        DeepMind<br> AI научили систему читать по губам лучше, чем это делают люди. Программа <br>Watch, Attend and
+        Spell улавливает разницу даже между похожими по движениям губ<br> словами и разбирает до 50% тихой речи. У
+        специалистов, читающих по губам, этот же показатель<br> составляет всего 12%. Система обучалась на просмотре
+        программ новостей BBC. После изучения<br>118 000 предложений из видеороликов в словарном запасе Watch, Attend
+        and Spell более 17 500 слов.
+      </div>
     </div>
     <div class="table">
-        <div class="row">
-            <div class="text" id="page19_text">
-                <p>
-                    Какие же профессии могут исчезнуть уже в ближайшее время, а какие нельзя заменить искусственным интеллектом? Ответ на этот вопрос, казалось бы, прост - если на рабочем месте человек делает рутинную и однообразную работу, то скорее всего на его смену в ближайшем будущем придут алгоритмы, но если его работа носит творческий характер, то никакой искусственный интеллект ему не страшен. И все же этот процесс не так однозначен, как кажется на первый взгляд. Представленное процентное соотношение рабочих часов машин и людей в 2018 и 2022 годах показывает, что с годами ситуация меняется в пользу искусственного интеллекта.
-                </p>
-            </div>
-            <div class="img" id="page19_img">
-                <img src="img/2.4.22.png" alt="Изображение"  >
-                <h6>Рис. 22. Соотношение рабочих часов машин и людей в 2018 и 2022</h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page19_text">
+          <p>
+            Какие же профессии могут исчезнуть уже в ближайшее время, а какие нельзя заменить искусственным интеллектом?
+            Ответ на этот вопрос, казалось бы, прост - если на рабочем месте человек делает рутинную и однообразную
+            работу, то скорее всего на его смену в ближайшем будущем придут алгоритмы, но если его работа носит
+            творческий характер, то никакой искусственный интеллект ему не страшен. И все же этот процесс не так
+            однозначен, как кажется на первый взгляд. Представленное процентное соотношение рабочих часов машин и людей
+            в 2018 и 2022 годах показывает, что с годами ситуация меняется в пользу искусственного интеллекта.
+          </p>
         </div>
+        <div class="img" id="page19_img">
+          <img src="img/2.4.22.png" alt="Изображение">
+          <h6>Рис. 22. Соотношение рабочих часов машин и людей в 2018 и 2022</h6>
+        </div>
+      </div>
     </div>
-    <a href="#page20"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page20"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page20" class="page">
+  <section id="page20" class="page">
     <div class="table">
-        <div class="row">
-            <div class="img" id="page20_img">
-                <img src="img/2.4.23.png" alt="Изображение">
-                <h6>
-                    Рис. 23. Обложка альбома «Нейронная оборона»
-                    https://avatars.yandex.net/get-music-content/41288/7cf4ea76.a.3558837-1/m1000x1000?webp=false
-                    (дата обращения: 30.04.2020)
-                </h6>
-            </div>
-            <div class="text" id="page20_text">
-                <p>
-                    Даже в творчестве появились проекты с использованием ИИ. Например, проект сотрудников «Яндекса» Алексея Тихонова и Ивана Ямщикова «Нейронная оборона», в котором авторы обучили программу, основанную на нейросети, генерировать стихи в стиле Егора Летова, основателя группы «Гражданская оборона».
-                </p>
-            </div>
+      <div class="row">
+        <div class="img" id="page20_img">
+          <img src="img/2.4.23.png" alt="Изображение">
+          <h6>
+            Рис. 23. Обложка альбома «Нейронная оборона»
+            https://avatars.yandex.net/get-music-content/41288/7cf4ea76.a.3558837-1/m1000x1000?webp=false
+            (дата обращения: 30.04.2020)
+          </h6>
         </div>
+        <div class="text" id="page20_text">
+          <p>
+            Даже в творчестве появились проекты с использованием ИИ. Например, проект сотрудников «Яндекса» Алексея
+            Тихонова и Ивана Ямщикова «Нейронная оборона», в котором авторы обучили программу, основанную на нейросети,
+            генерировать стихи в стиле Егора Летова, основателя группы «Гражданская оборона».
+          </p>
+        </div>
+      </div>
     </div>
-    <a href="#page21"><span></span><span></span><span></span></a>
-</section>
+    <a class="page__link" href="#page21"><span></span><span></span><span></span></a>
+  </section>
 
-<section id="page21" class="page">
+  <section id="page22" class="page page22">
+    <div class="page22__container">
+      <div class="page22__content">
+        <div class="page22__container-heading">
+          <h2 class="page22__heading">Еще больше творческих работ ИИ</h2>
+      </div>
+
+        <div class="page22__block">
+          <div class="page22__box page22__box-content_background1">
+              <div class="page22__img">
+                  <div class="page22__box-content">
+                      <h3 class="page22__box-heading">«Портрет Эдмонда Беломи»</h3>
+                      <p class="page22__box-par">
+                        Данный портрет ушел с молотка и почти за 433 тысячи. Авторство приписывают Пьеру Фаутрелю..
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="page22__box  page22__box-content_background2">
+              <div class="page22__img">
+                  <div class="page22__box-content">
+                      <h3 class="page22__box-heading">«Джурогумо»</h3>
+                      <p class="page22__box-par">
+                        Майк Тика (Mike Tyke), «Джурогумо», 2016 год, находится в частной коллекции. Автор алгоритма, написавшего картину, работает в Google.
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="page22__box page22__box-content_background3">
+              <div class="page22__img">
+                  <div class="page22__box-content">
+                      <h3 class="page22__box-heading">Abraham/ai-eden</h3>
+                      <p class="page22__box-par">
+                        Ген Коган создал даже не картину, а алгоритм, который такие картины генерирует, и назвал его самостоятельным произведением искусства: abraham/ai-eden.
+                      </p>
+                  </div>
+              </div>
+          </div>
+ 
+          <div class="page22__box page22__box-content_background4">
+              <div class="page22__img">
+                  <div class="page22__box-content">
+                      <h3 class="page22__box-heading">«Проклятая картина»</h3>
+                      <p class="page22__box-par">
+                        «Проклятая картина», которая сначала появилась на одном из «чанов», потом перекочевала на Reddit. Стала первым сверхпопулярным объектом ИИ-искусства, после которой многие программисты начали пробовать свои силы.
+                      </p>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="page22__box  page22__box-content_background5">
+              <div class="page22__img">
+                  <div class="page22__box-content">
+                      <h3 class="page22__box-heading">«Воспоминание о прохожих»</h3>
+                      <p class="page22__box-par">
+                        Марио Клингеман, «Воспоминание о прохожих». Два холста — это LCD-панели, а в деревянном ящике компьютер, которые непрерывно генерирует новые портреты. Пока находится в собственности художника. Искусствоведы называют работу претендентом на очень высокую стоимость.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page21" class="page">
     <div class="table">
-        <div class="row">
-            <div class="text" id="page21_text">
-                <p>
-                    В последних примерах видно, что программа может имитировать, а не создавать новое. То есть искусственный интеллект не был способен полностью заменить человека.
-                </p>
-                <p>
-                    В 2019 году на выставке в Нью-Йорке были представлены «безликие» портреты, выполненные искусственным интеллектом AICAN совместно с его создателем Ахмедом Эльгаммалем. Системе были представлены 100 000 фотографий западного искусства за последние пять веков. С помощью машинного обучения программа смогла создать лишь лишенные эмоций картины.
-                </p>
-                <p>
-                    Умение применять воображение и вкладывать в работу эмоциональную составляющую – исключительная особенность людей. Именно это качество позволяет человеку решать изначально нерешаемые задачи, находя решения за счет нестандартного творческого подхода.
-                </p>
-            </div>
-            <div class="img" id="page21_img">
-                <img src="img/2.4.24.png" alt="Изображение"  >
-                <h6>
-                    Рис. 24. Работы искусственного интеллекта AICAN
-                    https://neurohive.io/wp-content/uploads/2019/03/p-1-90307889-artificial-intelligence-now-makes-art-about-the-human-condition.jpg
-                    (дата обращения: 30.04.2020)
-                </h6>
-            </div>
+      <div class="row">
+        <div class="text" id="page21_text">
+          <p>
+            В последних примерах видно, что программа может имитировать, а не создавать новое. То есть искусственный
+            интеллект не был способен полностью заменить человека.
+          </p>
+          <p>
+            В 2019 году на выставке в Нью-Йорке были представлены «безликие» портреты, выполненные искусственным
+            интеллектом AICAN совместно с его создателем Ахмедом Эльгаммалем. Системе были представлены 100 000
+            фотографий западного искусства за последние пять веков. С помощью машинного обучения программа смогла
+            создать лишь лишенные эмоций картины.
+          </p>
+          <p>
+            Умение применять воображение и вкладывать в работу эмоциональную составляющую – исключительная особенность
+            людей. Именно это качество позволяет человеку решать изначально нерешаемые задачи, находя решения за счет
+            нестандартного творческого подхода.
+          </p>
         </div>
+        <div class="img" id="page21_img">
+          <img src="img/2.4.24.png" alt="Изображение">
+          <h6>
+            Рис. 24. Работы искусственного интеллекта AICAN
+            https://neurohive.io/wp-content/uploads/2019/03/p-1-90307889-artificial-intelligence-now-makes-art-about-the-human-condition.jpg
+            (дата обращения: 30.04.2020)
+          </h6>
+        </div>
+      </div>
     </div>
     <div class="chat hide" id="chat">
-        <div class="chat_header">
-          <img class="chat_avatar" src="img/photo/DTrump.jpg"></img>Donald Trump
-          <div class="chat_status" id="status_on">ONLINE</div>
-          <div class="chat_status hide" id="status_off">OFFLINE</div>
+      <div class="chat_header">
+        <img class="chat_avatar" src="img/photo/DTrump.jpg"></img>Donald Trump
+        <div class="chat_status" id="status_on">ONLINE</div>
+        <div class="chat_status hide" id="status_off">OFFLINE</div>
+      </div>
+      <div class="chat_s">
+        <div class="chat_bubble-1 hide" id="chat_dt1a">Эй ты! Как там тебя? Хотя не важно.</div>
+        <div class="chat_bubble-1 hide" id="chat_dt1b">Я слышал, что ты крутой Data Scientist</div>
+        <div class="chat_bubble-1 hide" id="chat_dt1c">Я беру тебя на работу, но прежде небольшое собеседование. Пойдет?
         </div>
-        <div class="chat_s">
-          <div class="chat_bubble-1 hide" id="chat_dt1a">Эй ты! Как там тебя? Хотя не важно.</div>
-          <div class="chat_bubble-1 hide" id="chat_dt1b">Я слышал, что ты крутой Data Scientist</div>
-          <div class="chat_bubble-1 hide" id="chat_dt1c">Я беру тебя на работу, но прежде небольшое собеседование. Пойдет?</div>
-          <div class="chat_bubble-2 hide" id="chat_a1">Конечно</div>
-          <div class="chat_bubble-1 hide" id="chat_dt1d">Тогда приступим</div>
-          <div class="chat_bubble-1 hide" id="chat_dt2">К какому типу задач относится необходимость отнести тот или иной объект данных к определенной, заранее заданной категории?</div>
-          <div class="chat_bubble-2 hide" id="chat_a2a">Классификация</div>
-          <div class="chat_bubble-2 hide" id="chat_a2b">Кластеризация</div>
-          <div class="chat_bubble-2 hide" id="chat_a2c">Регрессия</div>
-          <div class="chat_bubble-1 hide" id="chat_dt2n">Плохо. Это классификация.</div>
-          <div class="chat_bubble-1 hide" id="chat_dt2y">Правильно</div>
-          <div class="chat_bubble-1 hide" id="chat_dt3">В каком году под руководством Льва Мановича был запущен проект под названием Selfiecity?</div>
-          <div class="chat_bubble-2 hide" id="chat_a3a">2013</div>
-          <div class="chat_bubble-2 hide" id="chat_a3b">2014</div>
-          <div class="chat_bubble-2 hide" id="chat_a3c">2015</div>
-          <div class="chat_bubble-1 hide" id="chat_dt3n">Нет, в 2014</div>
-          <div class="chat_bubble-1 hide" id="chat_dt3y">Хорошо</div>
-          <div class="chat_bubble-1 hide" id="chat_dt4a">Слушай. У меня встреча сейчас с Байденом.</div>
-          <div class="chat_bubble-1 hide" id="chat_dt4b">Поэтому продолжим в другой раз.</div>
-          <div class="chat_bubble-1 hide" id="chat_dt4c">Я тебе сам напишу.</div>
-          <div class="chat_bubble-3 hide" id="chat_dt4d">Пользователь Donald Trump внес ваш контакт в черный список</div>
-        </div>
-        <div class="chat_input">
-          <button onclick="chat_b1()" class="chat_submit fa fa-send hide" id="chat_b1">Конечно</button>
-    
-          <button onclick="chat_b2(1)" class="chat_submit fa fa-send hide" id="chat_b2a">Классификация</button>
-          <button onclick="chat_b2(2)" class="chat_submit fa fa-send hide" id="chat_b2b">Кластеризация</button>
-          <button onclick="chat_b2(3)" class="chat_submit fa fa-send hide" id="chat_b2c">Регрессия</button>
-    
-          <button onclick="chat_b3(1)" class="chat_submit fa fa-send hide" id="chat_b3a">2013</button>
-          <button onclick="chat_b3(2)" class="chat_submit fa fa-send hide" id="chat_b3b">2014</button>
-          <button onclick="chat_b3(3)" class="chat_submit fa fa-send hide" id="chat_b3c">2015</button>
-    
-          <button onclick="chat_close()" class="chat_submit fa fa-send hide" id="chat_b4">Закрыть чат</button>
-        </div>
+        <div class="chat_bubble-2 hide" id="chat_a1">Конечно</div>
+        <div class="chat_bubble-1 hide" id="chat_dt1d">Тогда приступим</div>
+        <div class="chat_bubble-1 hide" id="chat_dt2">К какому типу задач относится необходимость отнести тот или иной
+          объект данных к определенной, заранее заданной категории?</div>
+        <div class="chat_bubble-2 hide" id="chat_a2a">Классификация</div>
+        <div class="chat_bubble-2 hide" id="chat_a2b">Кластеризация</div>
+        <div class="chat_bubble-2 hide" id="chat_a2c">Регрессия</div>
+        <div class="chat_bubble-1 hide" id="chat_dt2n">Плохо. Это классификация.</div>
+        <div class="chat_bubble-1 hide" id="chat_dt2y">Правильно</div>
+        <div class="chat_bubble-1 hide" id="chat_dt3">В каком году под руководством Льва Мановича был запущен проект под
+          названием Selfiecity?</div>
+        <div class="chat_bubble-2 hide" id="chat_a3a">2013</div>
+        <div class="chat_bubble-2 hide" id="chat_a3b">2014</div>
+        <div class="chat_bubble-2 hide" id="chat_a3c">2015</div>
+        <div class="chat_bubble-1 hide" id="chat_dt3n">Нет, в 2014</div>
+        <div class="chat_bubble-1 hide" id="chat_dt3y">Хорошо</div>
+        <div class="chat_bubble-1 hide" id="chat_dt4a">Слушай. У меня встреча сейчас с Байденом.</div>
+        <div class="chat_bubble-1 hide" id="chat_dt4b">Поэтому продолжим в другой раз.</div>
+        <div class="chat_bubble-1 hide" id="chat_dt4c">Я тебе сам напишу.</div>
+        <div class="chat_bubble-3 hide" id="chat_dt4d">Пользователь Donald Trump внес ваш контакт в черный список</div>
+      </div>
+      <div class="chat_input">
+        <button onclick="chat_b1()" class="chat_submit fa fa-send hide" id="chat_b1">Конечно</button>
+
+        <button onclick="chat_b2(1)" class="chat_submit fa fa-send hide" id="chat_b2a">Классификация</button>
+        <button onclick="chat_b2(2)" class="chat_submit fa fa-send hide" id="chat_b2b">Кластеризация</button>
+        <button onclick="chat_b2(3)" class="chat_submit fa fa-send hide" id="chat_b2c">Регрессия</button>
+
+        <button onclick="chat_b3(1)" class="chat_submit fa fa-send hide" id="chat_b3a">2013</button>
+        <button onclick="chat_b3(2)" class="chat_submit fa fa-send hide" id="chat_b3b">2014</button>
+        <button onclick="chat_b3(3)" class="chat_submit fa fa-send hide" id="chat_b3c">2015</button>
+
+        <button onclick="chat_close()" class="chat_submit fa fa-send hide" id="chat_b4">Закрыть чат</button>
+      </div>
     </div>
-</section>
+  </section>
 
 
 
-<div id="dialog" title="Схема восстановлена" class="dialog">
+  <div id="dialog" title="Схема восстановлена" class="dialog">
     <div id="dialog-1">
-        "Поздравляем! Вы восстановили схему.<br> 
-        С вами хочет поговорить генеральный директор «Яндекса»"<br> <br> 
-        <button id="button-d1"  class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_2()">Я слушаю</button>
+      "Поздравляем! Вы восстановили схему.<br>
+      С вами хочет поговорить генеральный директор «Яндекса»"<br> <br>
+      <button id="button-d1" class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_2()">Я
+        слушаю</button>
     </div>
     <div id="dialog-2" class="dialog">
-        <img src="img/photo/voloj1.jpg" width="90%"/>
-        <p>Аркадий Юрьевич Волож</p><br><br>
+      <img src="img/photo/voloj1.jpg" width="90%" />
+      <p>Аркадий Юрьевич Волож</p><br><br>
 
-        <div id="dialog-2a">
-            <p>"Привет! Ты нас здорово выручил. <br>Это была единственная схема во всем мире и ты смог ее восстановить. Поэтому у нас для такого уникального и талантливого разработчика есть специальное предложение."</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_2a()">Продолжайте</button>
-        </div>
-        <div id="dialog-2b" class="hide">
-            <p>"Мы тебе предлагаем место младшего разработчика с зарплатой в 5000$ в месяц. Ты согласен?"</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3()">Да, конечно. Где подпись поставить?</button>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3()">Нет, я ожидал большей зарплаты за свой талант. Но так и быть на первое время пойдет.</button>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3()">Утвердительно кивнуть головой</button>
-        </div>
+      <div id="dialog-2a">
+        <p>"Привет! Ты нас здорово выручил. <br>Это была единственная схема во всем мире и ты смог ее восстановить.
+          Поэтому у нас для такого уникального и талантливого разработчика есть специальное предложение."</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;"
+          onclick="dialogShow_2a()">Продолжайте</button>
+      </div>
+      <div id="dialog-2b" class="hide">
+        <p>"Мы тебе предлагаем место младшего разработчика с зарплатой в 5000$ в месяц. Ты согласен?"</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3()">Да, конечно. Где
+          подпись поставить?</button>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3()">Нет, я ожидал
+          большей зарплаты за свой талант. Но так и быть на первое время пойдет.</button>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3()">Утвердительно
+          кивнуть головой</button>
+      </div>
     </div>
     <div id="dialog-3" class="dialog">
-        <img src="img/photo/mark1.jpg" width="90%"/>
-        <p>Марк Цукерберг</p><br><br>
+      <img src="img/photo/mark1.jpg" width="90%" />
+      <p>Марк Цукерберг</p><br><br>
 
-        <div id="dialog-3a">
-            <p>"Погоди!!!"</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3a()">Марк, что случилось?</button>
-        </div>
-        <div id="dialog-3b" class="hide">
-            <p>"Meta предлагает тебе позицию middle developer с зарплатой в 6000$ в неделю! Мы нуждаемся в тебе!!! Пойдешь к нам?"</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4()">Нет, это похоже на сон. Где подпись поставить?</button>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4()">Пойду.</button>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4()">Утвердительно кивнуть головой</button>
-        </div>
+      <div id="dialog-3a">
+        <p>"Погоди!!!"</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_3a()">Марк, что
+          случилось?</button>
+      </div>
+      <div id="dialog-3b" class="hide">
+        <p>"Meta предлагает тебе позицию middle developer с зарплатой в 6000$ в неделю! Мы нуждаемся в тебе!!! Пойдешь к
+          нам?"</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4()">Нет, это похоже
+          на сон. Где подпись поставить?</button>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4()">Пойду.</button>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4()">Утвердительно
+          кивнуть головой</button>
+      </div>
     </div>
     <div id="dialog-4" class="dialog">
-        <img src="img/photo/mask1.jpg" width="90%"/>
-        <p>Илон Маск</p><br><br>
+      <img src="img/photo/mask1.jpg" width="90%" />
+      <p>Илон Маск</p><br><br>
 
-        <div id="dialog-4a">
-            <p>"У меня предложение лучше!"</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4a()">Я слушаю</button>
-        </div>
-        <div id="dialog-4b" class="hide">
-            <p>"Я предлагаю тебе позицию senior developer с зарплатой в 15000$ в неделю в компании Tesla, а также бесплатный кофе, булочки, работу в уютном офисе или из дома и конечно же ДМС за счет компании. <br>Как тебе такое предложение?"</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_5()">Шикарное</button>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_5()">Великолепное</button>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_5()">Не зря я купил кепку с логотипом теслы</button>
-        </div>
+      <div id="dialog-4a">
+        <p>"У меня предложение лучше!"</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_4a()">Я
+          слушаю</button>
+      </div>
+      <div id="dialog-4b" class="hide">
+        <p>"Я предлагаю тебе позицию senior developer с зарплатой в 15000$ в неделю в компании Tesla, а также бесплатный
+          кофе, булочки, работу в уютном офисе или из дома и конечно же ДМС за счет компании. <br>Как тебе такое
+          предложение?"</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;"
+          onclick="dialogShow_5()">Шикарное</button>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;"
+          onclick="dialogShow_5()">Великолепное</button>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_5()">Не зря я купил
+          кепку с логотипом теслы</button>
+      </div>
     </div>
     <div id="dialog-5" class="dialog">
-        <img src="img/photo/all.jpg" width="90%"/>
-        <p>Директора</p><br><br>
+      <img src="img/photo/all.jpg" width="90%" />
+      <p>Директора</p><br><br>
 
-        <div id="dialog-5a">
-            <p>"Помечтали и хватит. Иди учись дальше."</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_6()">:(</button>
-        </div>
+      <div id="dialog-5a">
+        <p>"Помечтали и хватит. Иди учись дальше."</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_6()">:(</button>
+      </div>
     </div>
     <div id="dialog-6" class="dialog">
-        <img src="img/photo/voloj1.jpg" width="90%"/>
-        <p>Аркадий Юрьевич Волож</p><br><br>
+      <img src="img/photo/voloj1.jpg" width="90%" />
+      <p>Аркадий Юрьевич Волож</p><br><br>
 
-        <div id="dialog-6a">
-            <p>"Сейчас тебе промокод на яндекс.плюс дам как утешающий приз."</p><br>
-            <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_6a()">Хорошо, давайте</button>
-        </div>
-        <div id="dialog-6b" class="hide">
-            <p>"А, стоп. У меня они коничились. Извини."</p>
-        </div>
+      <div id="dialog-6a">
+        <p>"Сейчас тебе промокод на яндекс.плюс дам как утешающий приз."</p><br>
+        <button class="ui-button ui-widget ui-corner-all" style="width: 100%;" onclick="dialogShow_6a()">Хорошо,
+          давайте</button>
+      </div>
+      <div id="dialog-6b" class="hide">
+        <p>"А, стоп. У меня они коничились. Извини."</p>
+      </div>
     </div>
-</div>
+  </div>
 
-<div id="quiz-dialog" title="Проверьте свой кругозор" class="dialog">
+  <div id="quiz-dialog" title="Проверьте свой кругозор" class="dialog">
     <h3>Сколько байт содержиться в зеттабайте?</h3>
     <button id="qb1" class="ui-button ui-widget ui-corner-all" onClick="quiz1_click(1)">2<sup>60</sup></button><br>
     <button id="qb2" class="ui-button ui-widget ui-corner-all" onClick="quiz1_click(2)">2<sup>70</sup></button><br>
     <button id="qb3" class="ui-button ui-widget ui-corner-all" onClick="quiz1_click(3)">2<sup>50</sup></button><br><br>
-    <div id="qa1" class="hide">Зеттаба́йт (англ. zettabyte) (Збайт, З, ЗБ) — единица измерения количества информации, равная 2<sup>70</sup> стандартным байтам.</div>
-</div>
+    <div id="qa1" class="hide">Зеттаба́йт (англ. zettabyte) (Збайт, З, ЗБ) — единица измерения количества информации,
+      равная 2<sup>70</sup> стандартным байтам.</div>
+  </div>
 
 
 
-<script src="res/jquery.min.js"></script>
-<script src="res/jquery-ui.js"></script>
-<script src="project.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script src="project.js"></script>
+  <script defer src="/main.js"></script>
 </body>
+
 </html>
