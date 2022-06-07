@@ -1688,7 +1688,7 @@ a {
 
 /*карусель картин*/
 .page22 {
-  background-image: url('/img/background/b15.jpg');
+  background-image: url('img/background/b15.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1957,19 +1957,19 @@ a {
   width: 100px;
 } */
 .page22__box-content_background1 {
-  background-image: url("/img/cardOne.jpg");
+  background-image: url("img/cardOne.jpg");
 }
 .page22__box-content_background2 {
-  background-image: url("/img/cardTwo.jpg")
+  background-image: url("img/cardTwo.jpg")
 }
 .page22__box-content_background3 {
-  background-image: url("/img/cardThree.jpg");
+  background-image: url("img/cardThree.jpg");
 }
 .page22__box-content_background4 {
-  background-image: url("/img/cardFour.jpg");
+  background-image: url("img/cardFour.jpg");
 }
 .page22__box-content_background5 {
-  background-image: url("/img/cardSix.jpg"); 
+  background-image: url("img/cardSix.jpg"); 
 }
 
 .page22__box-content  {
@@ -2005,7 +2005,7 @@ a {
 
 /*page23*/
 .page23 {
-  background-image: url('/img/background/b2.jpg');
+  background-image: url('img/background/b2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
